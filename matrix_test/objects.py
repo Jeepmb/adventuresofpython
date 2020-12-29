@@ -16,5 +16,5 @@ def main():
 		bars.append(thisPub)
 
 	for bar in bars:
-		print("Bar:",bar.name," opens at ",bar.openTime," and closes at ",bar.closeTime)
+		print("Bar: " + str(bar.name) + " opens at " + str(bar.openTime) + " and closes at " + str(bar.closeTime))
 main()
